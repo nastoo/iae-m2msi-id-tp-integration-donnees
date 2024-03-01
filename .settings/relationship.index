@@ -15,6 +15,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_o4kU8NewEe6zgugtxyluJQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_jdO8wNWDEe6zWrRfvIKwyA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_rTPcoNW4Ee6fI5Oww8fQ0g",
     "version" : "0.1",
     "type" : "job"
