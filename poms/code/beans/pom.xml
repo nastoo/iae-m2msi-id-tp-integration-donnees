@@ -11,7 +11,7 @@
   <groupId>org.example.tpintegrationdesdonnees.bean</groupId>
   <artifactId>beans</artifactId>
   <version>8.0.1</version>
-  <name>TPINTEGRATIONDESDONNEES Beans</name>
+  <name>ETL_STOOS Beans</name>
   <properties>
     <talend.codes.package>beans</talend.codes.package>
     <maven.compiler.failOnError>${codes.compile.failOnError}</maven.compiler.failOnError>

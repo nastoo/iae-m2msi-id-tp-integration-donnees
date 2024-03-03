@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row2.prenom.length() > 0 ? (StringHandling.LEFT(row2.prenom.trim(), 1).toUpperCase() + StringHandling.SUBSTR(row1.prenom.trim(), 2, null).toLowerCase()).replaceAll(&quot;\\s+&quot;, &quot; &quot;).replaceAll(&quot;-(?i:[a-zA-Z])&quot;,&quot;$0&quot;.toUpperCase()): null">
+  <variables name="row2.etudiantID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="(((row2.genre.contains(&quot;Monsieur&quot;)) || (row2.genre.contains(&quot;Mr.&quot;)))?&quot;M&quot;:&quot;F&quot;).trim() " value="null" talendType="id_String" nullable="true"/>
+  <variables name="StringHandling.UPCASE(row2.nom).trim() " value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.prenom.length() > 0 ? (StringHandling.LEFT(row2.prenom.trim(), 1).toUpperCase() + StringHandling.SUBSTR(row1.prenom.trim(), 2, null).toLowerCase()).replaceAll(&quot;\\s+&quot;, &quot; &quot;).replaceAll(&quot;-(?i:[a-zA-Z])&quot;,&quot;$0&quot;.toUpperCase()): null " value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

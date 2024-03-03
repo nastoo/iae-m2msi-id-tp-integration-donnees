@@ -11,7 +11,7 @@
   <groupId>org.example.tpintegrationdesdonnees.code</groupId>
   <artifactId>routines</artifactId>
   <version>8.0.1</version>
-  <name>TPINTEGRATIONDESDONNEES Routines</name>
+  <name>ETL_STOOS Routines</name>
   <properties>
     <talend.codes.package>routines</talend.codes.package>
     <maven.compiler.failOnError>${codes.compile.failOnError}</maven.compiler.failOnError>
