@@ -38,11 +38,6 @@ Pour éviter tout problème ou bug de connexion avec les bases de données, cré
 - programme.csv.csv
 - scolarite.db
 
-## Lancement du projet
-
-Ouvrir Talend, et changer le  workspace (au sens Talend, changer de connexion) et pointer sur le répertoire `iae-m2msi-id-tp-integration-donnees` qui doit se trouver dans votre dossier `C:\Users\username\iae-m2msi-id-tp-integration-donnees`, sauf si vous avez fait le choix de l'enregistrer ailleurs.
-
-
 ## Soumettre des changements
 
 Vous pouvez utiliser Github Desktop ou la ligne de commande. Attention à bien utiliser le répertoire TPINT localisé dans workspace. 
