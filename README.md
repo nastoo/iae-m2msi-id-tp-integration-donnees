@@ -47,6 +47,8 @@ Ouvrir Talend, et changer le  workspace (au sens Talend, changer de connexion) e
 
 Vous pouvez utiliser Github Desktop ou la ligne de commande. Attention à bien utiliser le répertoire TPINT localisé dans workspace. 
 
+```bash
 git add . 
 git commit -m "Résumer ici ce que vous avez fait"
 git push 
+```
