@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_iwWBkNWDEe6zWrRfvIKwyA" name="inscription-OLAP" id="_UFCqwNWDEe6zWrRfvIKwyA" label="inscription-OLAP" dataPackage="_Fle8kNr3Ee6A7aqIy9v7lg" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/c:/tmp/inscription-olap.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/Tmp/inscription-olap.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_iwWBkdWDEe6zWrRfvIKwyA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_iwytgNWDEe6zWrRfvIKwyA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_iw8egNWDEe6zWrRfvIKwyA" tag="Status" value=""/>
+    <taggedValue xmi:id="_iw8egdWDEe6zWrRfvIKwyA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_iw8egtWDEe6zWrRfvIKwyA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_iw8eg9WDEe6zWrRfvIKwyA" tag="Description" value=""/>
+    <taggedValue xmi:id="_iw8ehNWDEe6zWrRfvIKwyA" tag="Author" value=""/>
+    <taggedValue xmi:id="_iw8ehdWDEe6zWrRfvIKwyA" tag="otherParameter"/>
+    <taggedValue xmi:id="_i3PTwNWDEe6zWrRfvIKwyA" tag="DB ProductName" value="SQLite"/>
+    <taggedValue xmi:id="_i3PTwdWDEe6zWrRfvIKwyA" tag="DB ProductVersion" value="3.6.14.2"/>
+    <taggedValue xmi:id="_i3PTwtWDEe6zWrRfvIKwyA" tag="DB IdentifierQuoteString" value=" "/>
+    <parameters xmi:id="_iwWBktWDEe6zWrRfvIKwyA" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_EbAGcNr3Ee6A7aqIy9v7lg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Fle8kNr3Ee6A7aqIy9v7lg" name=" " dataManager="_iwWBkNWDEe6zWrRfvIKwyA"/>
+</xmi:XMI>

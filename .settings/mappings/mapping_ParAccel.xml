@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <mapping>
-	<dbms product="GREENPLUM" id="greenplum_id" label="Mapping Greenplum"
+	<dbms product="PARACCEL" id="paraccel_id" label="Mapping ParAccel"
 		default="true">
 		<dbTypes>
 			<dbType type="ABSTIME" ignoreLen="true" ignorePre="true" />
@@ -281,7 +281,7 @@
 				</dbType>
 				<dbType type="NUMERIC">
 					<talendType type="id_Double"/>
-					<talendType type="id_BigDecimal" default="true" />			
+					<talendType type="id_BigDecimal" default="true"/>			
 				</dbType>				
 				<dbType type="BOOL" >
 					<talendType type="id_Boolean" default="true" />				
