@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_iNDuEJsxEe2xhIVGPMq6_Q" name="basedonnee" id="_YhHNMJsxEe2xhIVGPMq6_Q" label="basedonnee" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/c:/tmp/tmp_talend/soucouf-oltp.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/tmp/tmp_talend/soucouf-OLTP.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_iNDuEZsxEe2xhIVGPMq6_Q" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_iNkrcJsxEe2xhIVGPMq6_Q" tag="package filter" value=""/>
+  <taggedValue xmi:id="_iNkrcZsxEe2xhIVGPMq6_Q" tag="Status" value=""/>
+  <taggedValue xmi:id="_iNkrcpsxEe2xhIVGPMq6_Q" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_iNkrc5sxEe2xhIVGPMq6_Q" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_iNkrdJsxEe2xhIVGPMq6_Q" tag="Description" value=""/>
+  <taggedValue xmi:id="_iNkrdZsxEe2xhIVGPMq6_Q" tag="Author" value=""/>
+  <taggedValue xmi:id="_iNkrdpsxEe2xhIVGPMq6_Q" tag="otherParameter"/>
+  <parameters xmi:id="_iNDuEpsxEe2xhIVGPMq6_Q" key="CONN_PARA_KEY_USERNAME" value=""/>
+</TalendMetadata:DatabaseConnection>
