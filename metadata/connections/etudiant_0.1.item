@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_haUs4NmAEe6e4sIU0R7kgA" name="etudiant" id="_biWM4NmAEe6e4sIU0R7kgA" label="etudiant" dataPackage="_xEUBwNr6Ee6cJq2XLfXRVQ" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/c:/tmp/scolarite.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/Tmp/scolarite.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_haUs4NmAEe6e4sIU0R7kgA" name="etudiant" id="_biWM4NmAEe6e4sIU0R7kgA" label="etudiant" dataPackage="_hi-5oNmAEe6e4sIU0R7kgA" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/c:/tmp/scolarite.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/tmp/scolarite.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_haUs4dmAEe6e4sIU0R7kgA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_hatucNmAEe6e4sIU0R7kgA" tag="package filter" value=""/>
     <taggedValue xmi:id="_ha3fcNmAEe6e4sIU0R7kgA" tag="Status" value=""/>
@@ -13,7 +13,6 @@
     <taggedValue xmi:id="_he9VQdmAEe6e4sIU0R7kgA" tag="DB ProductVersion" value="3.6.14.2"/>
     <taggedValue xmi:id="_he9VQtmAEe6e4sIU0R7kgA" tag="DB IdentifierQuoteString" value=" "/>
     <parameters xmi:id="_haUs4tmAEe6e4sIU0R7kgA" key="CONN_PARA_KEY_USERNAME" value=""/>
-    <parameters xmi:id="_7b1zENr2Ee6A7aqIy9v7lg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_xEUBwNr6Ee6cJq2XLfXRVQ" name=" " dataManager="_haUs4NmAEe6e4sIU0R7kgA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_hi-5oNmAEe6e4sIU0R7kgA" name=" " dataManager="_haUs4NmAEe6e4sIU0R7kgA"/>
 </xmi:XMI>
