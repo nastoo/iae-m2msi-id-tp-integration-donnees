@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:GPjZ8Kc+G51PlvMux1lP5JqBslmK7fpOn7yP7+SL" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:1AJHXw3DCPzK93ZROqpMVr9qVD7AlG/uBPu9VTHV" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pnBTLw7EAAAuEEMaJoFw1ZhIEElpZvr0ORxb96U3" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jGlyiGB4vG5ublm9beI89SEaOGeH0MPeoLeGFeB1" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -214,12 +214,12 @@
       <column comment="" key="false" length="-1" name="niveau" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="exportMasterOlap">
         <mapperTableEntries name="programmeID" expression="row1.programmeID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="intitule" expression="StringHandling.EREPLACE(StringHandling.EREPLACE(StringHandling.EREPLACE(row1.intitule,&quot; 1e année &quot;,&quot; &quot;) ,&quot; 2e année &quot;,&quot; &quot;),&quot; - spécialité &quot;,&quot; : &quot;) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="master" expression="row1.master " type="id_String" nullable="true"/>
+        <mapperTableEntries name="master" expression=" row1.master " type="id_String" nullable="true"/>
         <mapperTableEntries name="niveau" expression="row1.niveau - 3" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
