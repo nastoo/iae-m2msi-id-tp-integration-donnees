@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:6noaRmuK1HJjP7veblUJ15SAxdXCQO2xthIDUXoY" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:IxlB2I55QyE5jNIrwbJiar+M2W6SRRRLBvxNV+cG" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GyB+f5mcWwdth2VDtYnayK6XKQFblxSvtUXPAWKQ" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MVi1iGtV+TK8qShXVOa13yY3QsHhLdew7DgQHrb9" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -106,6 +106,7 @@
     <routinesParameter id="_hzSY4NWCEe6zWrRfvIKwyA" name="TalendDate"/>
     <routinesParameter id="_hz6rANWCEe6zWrRfvIKwyA" name="TalendStringUtil"/>
     <routinesParameter id="_hzl64NWCEe6zWrRfvIKwyA" name="TalendString"/>
+    <routinesParameter id="_y-1cUN7tEe6csoe36GFzbw" name="TalendFunction"/>
   </parameters>
   <node componentName="tSQLiteInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
@@ -200,13 +201,13 @@
       <column comment="" key="false" length="-1" name="prenom" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="etudiantOutput">
         <mapperTableEntries name="etudiantID" expression="row2.etudiantID " type="id_Integer"/>
         <mapperTableEntries name="genre" expression="(((row2.genre.contains(&quot;Monsieur&quot;)) || (row2.genre.contains(&quot;Mr.&quot;)))?&quot;M&quot;:&quot;F&quot;).trim() " type="id_String" nullable="true"/>
         <mapperTableEntries name="nom" expression="StringHandling.UPCASE(row2.nom).trim() " type="id_String" nullable="true"/>
-        <mapperTableEntries name="prenom" expression="row2.prenom.length() > 0 ? (StringHandling.LEFT(row2.prenom.trim(), 1).toUpperCase() + StringHandling.SUBSTR(row1.prenom.trim(), 2, null).toLowerCase()).replaceAll(&quot;\\s+&quot;, &quot; &quot;).replaceAll(&quot;-(?i:[a-zA-Z])&quot;,&quot;$0&quot;.toUpperCase()): null " type="id_String" nullable="true"/>
+        <mapperTableEntries name="prenom" expression="row2.prenom.length() > 0 ?routines.TalendFunction.uppercaseFirstLetter(row2.prenom) : null " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="etudiantID" type="id_Integer" nullable="true"/>
