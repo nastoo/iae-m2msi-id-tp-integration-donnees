@@ -4,6 +4,7 @@
 
 ## Récupérer le projet
 
+
 Localisez vous dans le dossier où est installé Talend : 
 
 Depuis votre PC : 
