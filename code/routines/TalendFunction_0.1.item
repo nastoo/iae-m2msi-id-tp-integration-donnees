@@ -1,0 +1,43 @@
+package routines;
+
+import java.util.regex.Pattern;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+
+public class TalendFunction {
+    public static String uppercaseFirstLetter(String input) {
+    	String rule = "([^\\p{L}\\p{N}]+)";
+   
+    	input = input.trim();
+    	
+    	 List<String> allMatches = new ArrayList<String>();
+    	 Matcher m = Pattern.compile(rule)
+    	     .matcher(input);
+    	 while (m.find()) {
+    	   allMatches.add(m.group());
+    	 }
+    	
+    	
+    	String[] names = input.split(rule);
+
+    	String adjustedFirstName = "";
+    	
+    	if(names.length > 0) {
+    		int index = 0;
+    		for (String name : names) {
+       		
+        		if(allMatches.size() > 0) {
+        			adjustedFirstName += name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase() +  ((allMatches.size() > index) ? allMatches.get(index) : "") ;
+        		} else {
+        			adjustedFirstName += name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
+        		}
+        		
+        	   index++;
+        	}
+    	}
+    	
+    	return adjustedFirstName.trim();
+    	
+    }
+}
