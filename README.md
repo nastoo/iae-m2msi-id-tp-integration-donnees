@@ -26,6 +26,7 @@ git clone https://github.com/nastoo/iae-m2msi-id-tp-integration-donnees/
 
 Pour mettre les fichiers Git dans le workspace de travail : 
 ```bash
+cp -rf iae-m2msi-id-tp-integration-donnees/*  TPINT/
 cp -rf iae-m2msi-id-tp-integration-donnees/.*  TPINT/
 ```
 
