@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:4pOGhHWBS1YtViQ14HqjWgGyio/Ie8qGxWsWYOA+" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:bfbJYfR5CqBimMtByvXheQbXGaw25OXl8XaB3s4h" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0AhalBZsQQGaecFKn5L6LqWLil093ybpXyL78d3X" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+oaLuNAQMBDzR9f/lmPjN7NWKBU6iXDRdY4RatMe" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -136,10 +136,12 @@
   </node>
   <node componentName="tSQLiteInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_jdO8wNWDEe6zWrRfvIKwyA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="FILE" name="DBNAME" value="&quot;C:/tmp/scolarite.db&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" value="SQLite" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="SQLITE" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;INSCRITCOURS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -169,10 +171,12 @@
   </node>
   <node componentName="tSQLiteInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_jdO8wNWDEe6zWrRfvIKwyA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="FILE" name="DBNAME" value="&quot;C:/tmp/scolarite.db&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" value="SQLite" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="SQLITE" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;cours&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -202,7 +206,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_UGPFYN7KEe6djpCM5m6Iww-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_aXTC0N1hEe6eueF3bOEqPA-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -276,7 +280,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_UGPFYN7KEe6djpCM5m6Iww-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_aXTC0N1hEe6eueF3bOEqPA-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -344,10 +348,12 @@
   </node>
   <node componentName="tSQLiteInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_4" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_jdO8wNWDEe6zWrRfvIKwyA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="FILE" name="DBNAME" value="&quot;C:/tmp/scolarite.db&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" value="SQLite" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="SQLITE" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;inscritProgramme&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -377,7 +383,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_UGPFYN7KEe6djpCM5m6Iww-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_aXTC0N1hEe6eueF3bOEqPA-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
